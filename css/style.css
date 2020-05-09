@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../HTML/background.png);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    padding: 5px 20px;
+    border: 1px oldlace transparent;
+    transition: 0.6s ease;
+    color: #fff;
+}
+ul li a:hover{
+    background-color: oldlace;
+    color: #000000;
+}
+
+ul li.active a {
+    background-color: oldlace;
+    color: #000000;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+    float: left;
+    padding: 20px;
+}
+
+
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    background-color: transparent;
+    border: 1px #fff solid;
+    padding: 5px 20px;
+}
+.btn:hover{
+    background-color: oldlace;
+    color: #000000;
+}
